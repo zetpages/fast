@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Open+Sans+Condensed:wght@300&display=swap');
+@media (max-height: 500px) {
+    .btn-left, .btn-right {
+        padding: 8px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 1200px) {
+    .top,
+    .mid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sec {
+        margin-top: 20px;
+    }
+
+    .main__info {
+        display: block;
+    }
+
+    .main__left-bar,
+    .main__mid-bar,
+    .main__right-bar {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .left-bar__about img {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 960px) {
+    h1 {
+        font-size: 45px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+
+    .main__info-about {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 5;
+    }
+
+    .left-bar__about img {
+        max-width: 100%;
+    }
+
+    .about-glass__page {
+        display: flex;
+        justify-content: center;
+    }
+
+    .left-bar__about {
+        padding: 0;
+        max-width: 100%;
+        margin: 2rem 0rem;
+    }
+    .right-bar__about {
+        max-width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 780px) {
+
+    .middle-info h3 {
+        font-family: 'Barlow Condensed',
+        sans-serif;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .top>.sec {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 620px) {
+    .price-bottom {
+        display: block;
+    }
+
+    .price-left {
+        margin-bottom: 10px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .middle-social {
+        display: block;
+    }
+
+    .circle1,
+    .circle2 {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 420px) {
+    .fir-info,
+    .price-bottom {
+        font-size: 16px;
+    }
+
+    .services-title h3 {
+        color: #ec4d37;
+        font-weight: 600;
+        /* letter-spacing: .1rem; */
+    }
+
+    .middle-info {
+        position: absolute;
+        width: 80%;
+        top: 30%;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: .8rem;
+    }
+
+    .call-calc p {
+        font-size: 14px;
+    }
+
+    .left-bar__about,
+    .right-bar__about {
+        padding: 0;
+        margin: 2rem 0rem;
+    }
+
+    .top {
+        display: block;
+    }
+
+    .top > .sec {
+        margin-top: 10px;
+    }
+
+    .footer-container {
+        padding-bottom: 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .fir-flex {
+        padding: 1rem;
+    }
+
+    .fir-info {
+        padding: 0rem 1rem 1rem 2rem;
+    }
+}
